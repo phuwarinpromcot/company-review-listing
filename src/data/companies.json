@@ -1,0 +1,452 @@
+[
+  {
+    "id": "1",
+    "name": "Airwallex",
+    "logo": "https://via.placeholder.com/100x50?text=Airwallex",
+    "category": "Fintech",
+    "averageScore": 4.4,
+    "description": "Airwallex is a global financial technology company providing payments and financial services.",
+    "website": "https://airwallex.com"
+  },
+  {
+    "id": "2",
+    "name": "Zilch",
+    "logo": "https://via.placeholder.com/100x50?text=Zilch",
+    "category": "Fintech",
+    "averageScore": 4.2,
+    "description": "Zilch is a UK-based fintech offering consumer payments and credit services.",
+    "website": "https://www.zilch.com"
+  },
+  {
+    "id": "3",
+    "name": "Trustly",
+    "logo": "https://via.placeholder.com/100x50?text=Trustly",
+    "category": "Fintech",
+    "averageScore": 4.3,
+    "description": "Trustly is a Swedish fintech specializing in open banking payment solutions.",
+    "website": "https://trustly.com"
+  },
+  {
+    "id": "4",
+    "name": "Stripe",
+    "logo": "https://via.placeholder.com/100x50?text=Stripe",
+    "category": "Fintech",
+    "averageScore": 4.7,
+    "description": "Stripe offers payment infrastructure for online and in-person transactions.",
+    "website": "https://stripe.com"
+  },
+  {
+    "id": "5",
+    "name": "PayPal",
+    "logo": "https://via.placeholder.com/100x50?text=PayPal",
+    "category": "Fintech",
+    "averageScore": 4.5,
+    "description": "PayPal provides digital payments and money transfer services worldwide.",
+    "website": "https://paypal.com"
+  },
+  {
+    "id": "6",
+    "name": "Coinbase",
+    "logo": "https://via.placeholder.com/100x50?text=Coinbase",
+    "category": "Fintech",
+    "averageScore": 4.4,
+    "description": "Coinbase is a major cryptocurrency exchange platform.",
+    "website": "https://coinbase.com"
+  },
+  {
+    "id": "7",
+    "name": "Revolut",
+    "logo": "https://via.placeholder.com/100x50?text=Revolut",
+    "category": "Fintech",
+    "averageScore": 4.3,
+    "description": "Revolut is a UK digital banking and financial super-app.",
+    "website": "https://revolut.com"
+  },
+  {
+    "id": "8",
+    "name": "Klarna",
+    "logo": "https://via.placeholder.com/100x50?text=Klarna",
+    "category": "Fintech",
+    "averageScore": 4.2,
+    "description": "Klarna offers buy-now-pay-later and payment services.",
+    "website": "https://klarna.com"
+  },
+  {
+    "id": "9",
+    "name": "Wise",
+    "logo": "https://via.placeholder.com/100x50?text=Wise",
+    "category": "Fintech",
+    "averageScore": 4.4,
+    "description": "Wise provides international money transfer and banking services.",
+    "website": "https://wise.com"
+  },
+  {
+    "id": "10",
+    "name": "Affirm Holdings",
+    "logo": "https://via.placeholder.com/100x50?text=Affirm",
+    "category": "Fintech",
+    "averageScore": 4.1,
+    "description": "Affirm offers buy-now-pay-later (BNPL) financial products.",
+    "website": "https://affirm.com"
+  },
+  {
+    "id": "11",
+    "name": "Adyen",
+    "logo": "https://via.placeholder.com/100x50?text=Adyen",
+    "category": "Fintech",
+    "averageScore": 4.6,
+    "description": "Adyen is a global payments company enabling merchants to accept payments worldwide.",
+    "website": "https://adyen.com"
+  },
+  {
+    "id": "12",
+    "name": "Nubank",
+    "logo": "https://via.placeholder.com/100x50?text=Nubank",
+    "category": "Fintech",
+    "averageScore": 4.3,
+    "description": "Nubank is a Brazilian digital bank and fintech platform.",
+    "website": "https://nubank.com"
+  },
+  {
+    "id": "13",
+    "name": "Paytm",
+    "logo": "https://via.placeholder.com/100x50?text=Paytm",
+    "category": "Fintech",
+    "averageScore": 4.1,
+    "description": "Paytm offers payments, mobile wallet, and financial services in India.",
+    "website": "https://paytm.com"
+  },
+  {
+    "id": "14",
+    "name": "FIS Global",
+    "logo": "https://via.placeholder.com/100x50?text=FIS",
+    "category": "Financial Services",
+    "averageScore": 4.0,
+    "description": "FIS provides financial technology solutions for banks and merchants.",
+    "website": "https://fisglobal.com"
+  },
+  {
+    "id": "15",
+    "name": "Fiserv",
+    "logo": "https://via.placeholder.com/100x50?text=Fiserv",
+    "category": "Financial Services",
+    "averageScore": 4.2,
+    "description": "Fiserv offers payments and financial technology solutions.",
+    "website": "https://fiserv.com"
+  },
+  {
+    "id": "16",
+    "name": "Visa",
+    "logo": "https://via.placeholder.com/100x50?text=Visa",
+    "category": "Financial Services",
+    "averageScore": 4.5,
+    "description": "Visa is a global payments technology company.",
+    "website": "https://visa.com"
+  },
+  {
+    "id": "17",
+    "name": "Mastercard",
+    "logo": "https://via.placeholder.com/100x50?text=Mastercard",
+    "category": "Financial Services",
+    "averageScore": 4.5,
+    "description": "Mastercard enables global card payments and services.",
+    "website": "https://mastercard.com"
+  },
+  {
+    "id": "18",
+    "name": "JPMorgan Chase",
+    "logo": "https://via.placeholder.com/100x50?text=JPMC",
+    "category": "Banking",
+    "averageScore": 4.3,
+    "description": "JPMorgan Chase is a leading global financial services firm.",
+    "website": "https://jpmorganchase.com"
+  },
+  {
+    "id": "19",
+    "name": "UBS Group",
+    "logo": "https://via.placeholder.com/100x50?text=UBS",
+    "category": "Banking",
+    "averageScore": 4.4,
+    "description": "UBS is a Swiss multinational investment bank and financial services firm.",
+    "website": "https://ubs.com"
+  },
+  {
+    "id": "20",
+    "name": "Bank of America",
+    "logo": "https://via.placeholder.com/100x50?text=BoA",
+    "category": "Banking",
+    "averageScore": 4.2,
+    "description": "Bank of America provides banking, investment, and financial services.",
+    "website": "https://bankofamerica.com"
+  },
+  {
+    "id": "21",
+    "name": "Citigroup",
+    "logo": "https://via.placeholder.com/100x50?text=Citi",
+    "category": "Banking",
+    "averageScore": 4.1,
+    "description": "Citigroup is a global bank offering financial products and services.",
+    "website": "https://citi.com"
+  },
+  {
+    "id": "22",
+    "name": "Capital One",
+    "logo": "https://via.placeholder.com/100x50?text=CapOne",
+    "category": "Banking",
+    "averageScore": 4.1,
+    "description": "Capital One is a diversified bank providing lending and financial products.",
+    "website": "https://capitalone.com"
+  },
+  {
+    "id": "23",
+    "name": "American Express",
+    "logo": "https://via.placeholder.com/100x50?text=AmEx",
+    "category": "Financial Services",
+    "averageScore": 4.4,
+    "description": "American Express offers credit card, charge card and payment services.",
+    "website": "https://americanexpress.com"
+  },
+  {
+    "id": "24",
+    "name": "Chase Bank",
+    "logo": "https://via.placeholder.com/100x50?text=Chase",
+    "category": "Banking",
+    "averageScore": 4.2,
+    "description": "Chase Bank is part of JPMorgan Chase offering consumer banking.",
+    "website": "https://chase.com"
+  },
+  {
+    "id": "25",
+    "name": "SoFi Technologies",
+    "logo": "https://via.placeholder.com/100x50?text=SoFi",
+    "category": "Fintech",
+    "averageScore": 4.0,
+    "description": "SoFi provides digital banking, loans, and investment services.",
+    "website": "https://sofi.com"
+  },
+  {
+    "id": "26",
+    "name": "Robinhood Markets",
+    "logo": "https://via.placeholder.com/100x50?text=Robinhood",
+    "category": "Fintech",
+    "averageScore": 4.1,
+    "description": "Robinhood offers commission-free trading and financial services.",
+    "website": "https://robinhood.com"
+  },
+  {
+    "id": "27",
+    "name": "Plaid",
+    "logo": "https://via.placeholder.com/100x50?text=Plaid",
+    "category": "Fintech",
+    "averageScore": 4.3,
+    "description": "Plaid provides financial APIs for banking integration.",
+    "website": "https://plaid.com"
+  },
+  {
+    "id": "28",
+    "name": "Checkout.com",
+    "logo": "https://via.placeholder.com/100x50?text=Checkout",
+    "category": "Fintech",
+    "averageScore": 4.2,
+    "description": "Checkout.com offers global payment processing solutions.",
+    "website": "https://checkout.com"
+  },
+  {
+    "id": "29",
+    "name": "Monzo",
+    "logo": "https://via.placeholder.com/100x50?text=Monzo",
+    "category": "Fintech",
+    "averageScore": 4.0,
+    "description": "Monzo is a UK digital bank serving millions of users.",
+    "website": "https://monzo.com"
+  },
+  {
+    "id": "30",
+    "name": "Starling Bank",
+    "logo": "https://via.placeholder.com/100x50?text=Starling",
+    "category": "Fintech",
+    "averageScore": 4.0,
+    "description": "Starling Bank provides digital banking services in the UK.",
+    "website": "https://starlingbank.com"
+  },
+  {
+    "id": "31",
+    "name": "Afterpay",
+    "logo": "https://via.placeholder.com/100x50?text=Afterpay",
+    "category": "Fintech",
+    "averageScore": 4.1,
+    "description": "Afterpay offers buy-now-pay-later payment solutions.",
+    "website": "https://afterpay.com"
+  },
+  {
+    "id": "32",
+    "name": "Mollie",
+    "logo": "https://via.placeholder.com/100x50?text=Mollie",
+    "category": "Fintech",
+    "averageScore": 4.3,
+    "description": "Mollie is a European payments platform.",
+    "website": "https://mollie.com"
+  },
+  {
+    "id": "33",
+    "name": "Rapyd",
+    "logo": "https://via.placeholder.com/100x50?text=Rapyd",
+    "category": "Fintech",
+    "averageScore": 4.2,
+    "description": "Rapyd provides global financial infrastructure APIs.",
+    "website": "https://rapyd.net"
+  },
+  {
+    "id": "34",
+    "name": "Bunq",
+    "logo": "https://via.placeholder.com/100x50?text=Bunq",
+    "category": "Fintech",
+    "averageScore": 4.1,
+    "description": "Bunq is a Dutch digital bank focused on sustainable finance.",
+    "website": "https://bunq.com"
+  },
+  {
+    "id": "35",
+    "name": "Paytm Payments Bank",
+    "logo": "https://via.placeholder.com/100x50?text=PaytmBank",
+    "category": "Fintech",
+    "averageScore": 4.0,
+    "description": "Paytm Payments Bank provides digital banking services in India.",
+    "website": "https://paytm.com/bank"
+  },
+  {
+    "id": "36",
+    "name": "PicPay",
+    "logo": "https://via.placeholder.com/100x50?text=PicPay",
+    "category": "Fintech",
+    "averageScore": 4.2,
+    "description": "PicPay is a Brazilian digital bank and payments app.",
+    "website": "https://picpay.com"
+  },
+  {
+    "id": "37",
+    "name": "M-Pesa",
+    "logo": "https://via.placeholder.com/100x50?text=M-Pesa",
+    "category": "Fintech",
+    "averageScore": 4.3,
+    "description": "M-Pesa is a mobile money service widely used in Africa.",
+    "website": "https://vodafone.com/mpesa"
+  },
+  {
+    "id": "38",
+    "name": "Intuit",
+    "logo": "https://via.placeholder.com/100x50?text=Intuit",
+    "category": "Fintech",
+    "averageScore": 4.4,
+    "description": "Intuit offers financial software including QuickBooks and TurboTax.",
+    "website": "https://intuit.com"
+  },
+  {
+    "id": "39",
+    "name": "Block (Square)",
+    "logo": "https://via.placeholder.com/100x50?text=Block",
+    "category": "Fintech",
+    "averageScore": 4.3,
+    "description": "Block offers payments hardware and fintech services via Square and Cash App.",
+    "website": "https://block.xyz"
+  },
+  {
+    "id": "40",
+    "name": "BlackRock",
+    "logo": "https://via.placeholder.com/100x50?text=BlackRock",
+    "category": "Asset Management",
+    "averageScore": 4.5,
+    "description": "BlackRock is the world's largest asset manager.",
+    "website": "https://blackrock.com"
+  },
+  {
+    "id": "41",
+    "name": "Fidelity Investments",
+    "logo": "https://via.placeholder.com/100x50?text=Fidelity",
+    "category": "Asset Management",
+    "averageScore": 4.4,
+    "description": "Fidelity offers investment management and financial products.",
+    "website": "https://fidelity.com"
+  },
+  {
+    "id": "42",
+    "name": "Vanguard",
+    "logo": "https://via.placeholder.com/100x50?text=Vanguard",
+    "category": "Asset Management",
+    "averageScore": 4.4,
+    "description": "Vanguard manages mutual funds and ETFs worldwide.",
+    "website": "https://vanguard.com"
+  },
+  {
+    "id": "43",
+    "name": "Allianz",
+    "logo": "https://via.placeholder.com/100x50?text=Allianz",
+    "category": "Insurance",
+    "averageScore": 4.3,
+    "description": "Allianz offers global insurance and financial services.",
+    "website": "https://allianz.com"
+  },
+  {
+    "id": "44",
+    "name": "AXA",
+    "logo": "https://via.placeholder.com/100x50?text=AXA",
+    "category": "Insurance",
+    "averageScore": 4.2,
+    "description": "AXA is a global insurance and asset management company.",
+    "website": "https://axa.com"
+  },
+  {
+    "id": "45",
+    "name": "AIA Group",
+    "logo": "https://via.placeholder.com/100x50?text=AIA",
+    "category": "Insurance",
+    "averageScore": 4.3,
+    "description": "AIA provides insurance and wealth products across Asia.",
+    "website": "https://aia.com"
+  },
+  {
+    "id": "46",
+    "name": "USAA",
+    "logo": "https://via.placeholder.com/100x50?text=USAA",
+    "category": "Financial Services",
+    "averageScore": 4.5,
+    "description": "USAA offers banking, insurance and financial services.",
+    "website": "https://usaa.com"
+  },
+  {
+    "id": "47",
+    "name": "Discover Financial",
+    "logo": "https://via.placeholder.com/100x50?text=Discover",
+    "category": "Financial Services",
+    "averageScore": 4.2,
+    "description": "Discover provides credit card and banking services.",
+    "website": "https://discover.com"
+  },
+  {
+    "id": "48",
+    "name": "Charles Schwab",
+    "logo": "https://via.placeholder.com/100x50?text=Schwab",
+    "category": "Financial Services",
+    "averageScore": 4.4,
+    "description": "Charles Schwab offers investments and brokerage services.",
+    "website": "https://schwab.com"
+  },
+  {
+    "id": "49",
+    "name": "E*TRADE",
+    "logo": "https://via.placeholder.com/100x50?text=ETRADE",
+    "category": "Financial Services",
+    "averageScore": 4.1,
+    "description": "E*TRADE provides online brokerage and investing tools.",
+    "website": "https://etrade.com"
+  },
+  {
+    "id": "50",
+    "name": "Soho Finance",
+    "logo": "https://via.placeholder.com/100x50?text=Soho",
+    "category": "Fintech",
+    "averageScore": 4.0,
+    "description": "Soho Finance offers credit and lending services.",
+    "website": "https://sohofinance.com"
+  }
+]
