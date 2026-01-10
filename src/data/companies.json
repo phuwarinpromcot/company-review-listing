@@ -4,449 +4,1989 @@
     "name": "Airwallex",
     "logo": "https://via.placeholder.com/100x50?text=Airwallex",
     "category": "Fintech",
+    "subCategory": "Payments",
+    "industry": "Financial Technology",
     "averageScore": 4.4,
+    "reviewCount": 150,
+    "companySize": "500-1000",
     "description": "Airwallex is a global financial technology company providing payments and financial services.",
-    "website": "https://airwallex.com"
+    "website": "https://airwallex.com",
+    "services": [
+      "Cross-border payments",
+      "Business accounts",
+      "FX"
+    ],
+    "supportedCountries": [
+      "Australia",
+      "UK",
+      "US",
+      "EU"
+    ],
+    "currencies": [
+      "USD",
+      "AUD",
+      "EUR",
+      "GBP"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/airwallex",
+      "twitter": "https://twitter.com/airwallex"
+    }
   },
   {
     "id": "2",
     "name": "Zilch",
     "logo": "https://via.placeholder.com/100x50?text=Zilch",
     "category": "Fintech",
+    "subCategory": "Buy Now Pay Later",
+    "industry": "Financial Technology",
     "averageScore": 4.2,
+    "reviewCount": 80,
+    "companySize": "100-500",
     "description": "Zilch is a UK-based fintech offering consumer payments and credit services.",
-    "website": "https://www.zilch.com"
+    "website": "https://www.zilch.com",
+    "services": [
+      "BNPL",
+      "Consumer Credit",
+      "Payment Solutions"
+    ],
+    "supportedCountries": [
+      "UK"
+    ],
+    "currencies": [
+      "GBP"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/hellozilch",
+      "twitter": "https://twitter.com/hellozilch"
+    }
   },
   {
     "id": "3",
     "name": "Trustly",
     "logo": "https://via.placeholder.com/100x50?text=Trustly",
     "category": "Fintech",
+    "subCategory": "Open Banking",
+    "industry": "Financial Technology",
     "averageScore": 4.3,
+    "reviewCount": 120,
+    "companySize": "500-1000",
     "description": "Trustly is a Swedish fintech specializing in open banking payment solutions.",
-    "website": "https://trustly.com"
+    "website": "https://trustly.com",
+    "services": [
+      "Open Banking Payments",
+      "Bank Transfers"
+    ],
+    "supportedCountries": [
+      "Sweden",
+      "EU",
+      "UK"
+    ],
+    "currencies": [
+      "EUR",
+      "SEK",
+      "GBP"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/trustly",
+      "twitter": "https://twitter.com/trustly"
+    }
   },
   {
     "id": "4",
     "name": "Stripe",
     "logo": "https://via.placeholder.com/100x50?text=Stripe",
     "category": "Fintech",
+    "subCategory": "Payments",
+    "industry": "Financial Technology",
     "averageScore": 4.7,
+    "reviewCount": 500,
+    "companySize": "5000+",
     "description": "Stripe offers payment infrastructure for online and in-person transactions.",
-    "website": "https://stripe.com"
+    "website": "https://stripe.com",
+    "services": [
+      "Payment Processing",
+      "Billing",
+      "Financial APIs"
+    ],
+    "supportedCountries": [
+      "US",
+      "EU",
+      "UK",
+      "Australia",
+      "Canada"
+    ],
+    "currencies": [
+      "USD",
+      "EUR",
+      "GBP",
+      "AUD",
+      "CAD"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/stripe",
+      "twitter": "https://twitter.com/stripe"
+    }
   },
   {
     "id": "5",
     "name": "PayPal",
     "logo": "https://via.placeholder.com/100x50?text=PayPal",
     "category": "Fintech",
+    "subCategory": "Payments",
+    "industry": "Financial Technology",
     "averageScore": 4.5,
+    "reviewCount": 600,
+    "companySize": "2000-5000",
     "description": "PayPal provides digital payments and money transfer services worldwide.",
-    "website": "https://paypal.com"
+    "website": "https://paypal.com",
+    "services": [
+      "Digital Payments",
+      "Money Transfers",
+      "Credit Services"
+    ],
+    "supportedCountries": [
+      "US",
+      "EU",
+      "UK",
+      "Australia",
+      "Canada"
+    ],
+    "currencies": [
+      "USD",
+      "EUR",
+      "GBP",
+      "AUD",
+      "CAD"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/paypal",
+      "twitter": "https://twitter.com/paypal"
+    }
   },
   {
     "id": "6",
     "name": "Coinbase",
     "logo": "https://via.placeholder.com/100x50?text=Coinbase",
     "category": "Fintech",
+    "subCategory": "Cryptocurrency Exchange",
+    "industry": "Financial Technology",
     "averageScore": 4.4,
+    "reviewCount": 300,
+    "companySize": "1000-5000",
     "description": "Coinbase is a major cryptocurrency exchange platform.",
-    "website": "https://coinbase.com"
+    "website": "https://coinbase.com",
+    "services": [
+      "Crypto Trading",
+      "Wallet",
+      "Institutional Services"
+    ],
+    "supportedCountries": [
+      "US",
+      "EU",
+      "UK",
+      "Australia",
+      "Canada"
+    ],
+    "currencies": [
+      "USD",
+      "EUR",
+      "GBP",
+      "AUD",
+      "CAD"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/coinbase",
+      "twitter": "https://twitter.com/coinbase"
+    }
   },
   {
     "id": "7",
     "name": "Revolut",
     "logo": "https://via.placeholder.com/100x50?text=Revolut",
     "category": "Fintech",
+    "subCategory": "Digital Banking",
+    "industry": "Financial Technology",
     "averageScore": 4.3,
+    "reviewCount": 200,
+    "companySize": "2000-5000",
     "description": "Revolut is a UK digital banking and financial super-app.",
-    "website": "https://revolut.com"
+    "website": "https://revolut.com",
+    "services": [
+      "Digital Banking",
+      "Payments",
+      "Investments"
+    ],
+    "supportedCountries": [
+      "UK",
+      "EU",
+      "US"
+    ],
+    "currencies": [
+      "GBP",
+      "EUR",
+      "USD"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/revolut",
+      "twitter": "https://twitter.com/revolutapp"
+    }
   },
   {
     "id": "8",
     "name": "Klarna",
     "logo": "https://via.placeholder.com/100x50?text=Klarna",
     "category": "Fintech",
+    "subCategory": "Buy Now Pay Later",
+    "industry": "Financial Technology",
     "averageScore": 4.2,
+    "reviewCount": 250,
+    "companySize": "1000-5000",
     "description": "Klarna offers buy-now-pay-later and payment services.",
-    "website": "https://klarna.com"
+    "website": "https://klarna.com",
+    "services": [
+      "BNPL",
+      "Payment Services"
+    ],
+    "supportedCountries": [
+      "EU",
+      "US",
+      "UK",
+      "Australia"
+    ],
+    "currencies": [
+      "EUR",
+      "GBP",
+      "USD",
+      "AUD"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/klarna",
+      "twitter": "https://twitter.com/klarna"
+    }
   },
   {
     "id": "9",
     "name": "Wise",
     "logo": "https://via.placeholder.com/100x50?text=Wise",
     "category": "Fintech",
+    "subCategory": "Money Transfer",
+    "industry": "Financial Technology",
     "averageScore": 4.4,
+    "reviewCount": 400,
+    "companySize": "1000-5000",
     "description": "Wise provides international money transfer and banking services.",
-    "website": "https://wise.com"
+    "website": "https://wise.com",
+    "services": [
+      "International Transfers",
+      "Multi-currency Accounts"
+    ],
+    "supportedCountries": [
+      "UK",
+      "EU",
+      "US",
+      "Australia",
+      "Canada"
+    ],
+    "currencies": [
+      "USD",
+      "EUR",
+      "GBP",
+      "AUD",
+      "CAD"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/wise",
+      "twitter": "https://twitter.com/wise"
+    }
   },
   {
     "id": "10",
     "name": "Affirm Holdings",
     "logo": "https://via.placeholder.com/100x50?text=Affirm",
     "category": "Fintech",
+    "subCategory": "Buy Now Pay Later",
+    "industry": "Financial Technology",
     "averageScore": 4.1,
+    "reviewCount": 180,
+    "companySize": "1000-5000",
     "description": "Affirm offers buy-now-pay-later (BNPL) financial products.",
-    "website": "https://affirm.com"
+    "website": "https://affirm.com",
+    "services": [
+      "BNPL",
+      "Consumer Financing"
+    ],
+    "supportedCountries": [
+      "US"
+    ],
+    "currencies": [
+      "USD"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/affirm",
+      "twitter": "https://twitter.com/affirm"
+    }
   },
   {
     "id": "11",
     "name": "Adyen",
     "logo": "https://via.placeholder.com/100x50?text=Adyen",
     "category": "Fintech",
+    "subCategory": "Payments",
+    "industry": "Financial Technology",
     "averageScore": 4.6,
+    "reviewCount": 350,
+    "companySize": "2000-5000",
     "description": "Adyen is a global payments company enabling merchants to accept payments worldwide.",
-    "website": "https://adyen.com"
+    "website": "https://adyen.com",
+    "services": [
+      "Payment Processing",
+      "POS Solutions",
+      "Risk Management"
+    ],
+    "supportedCountries": [
+      "EU",
+      "US",
+      "UK",
+      "Australia",
+      "Canada"
+    ],
+    "currencies": [
+      "USD",
+      "EUR",
+      "GBP",
+      "AUD",
+      "CAD"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/adyen",
+      "twitter": "https://twitter.com/adyen"
+    }
   },
   {
     "id": "12",
     "name": "Nubank",
     "logo": "https://via.placeholder.com/100x50?text=Nubank",
     "category": "Fintech",
+    "subCategory": "Digital Banking",
+    "industry": "Financial Technology",
     "averageScore": 4.3,
+    "reviewCount": 220,
+    "companySize": "2000-5000",
     "description": "Nubank is a Brazilian digital bank and fintech platform.",
-    "website": "https://nubank.com"
+    "website": "https://nubank.com",
+    "services": [
+      "Digital Banking",
+      "Credit Cards",
+      "Loans"
+    ],
+    "supportedCountries": [
+      "Brazil",
+      "Mexico",
+      "Colombia"
+    ],
+    "currencies": [
+      "BRL",
+      "MXN",
+      "COP"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/nubank",
+      "twitter": "https://twitter.com/nubank"
+    }
   },
   {
     "id": "13",
     "name": "Paytm",
     "logo": "https://via.placeholder.com/100x50?text=Paytm",
     "category": "Fintech",
+    "subCategory": "Payments",
+    "industry": "Financial Technology",
     "averageScore": 4.1,
+    "reviewCount": 200,
+    "companySize": "5000+",
     "description": "Paytm offers payments, mobile wallet, and financial services in India.",
-    "website": "https://paytm.com"
+    "website": "https://paytm.com",
+    "services": [
+      "Mobile Wallet",
+      "Payments",
+      "Banking Services"
+    ],
+    "supportedCountries": [
+      "India"
+    ],
+    "currencies": [
+      "INR"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/paytm",
+      "twitter": "https://twitter.com/Paytm"
+    }
   },
   {
     "id": "14",
     "name": "FIS Global",
     "logo": "https://via.placeholder.com/100x50?text=FIS",
     "category": "Financial Services",
+    "subCategory": "Banking Solutions",
+    "industry": "Financial Technology",
     "averageScore": 4.0,
+    "reviewCount": 180,
+    "companySize": "10000+",
     "description": "FIS provides financial technology solutions for banks and merchants.",
-    "website": "https://fisglobal.com"
+    "website": "https://fisglobal.com",
+    "services": [
+      "Core Banking",
+      "Payment Processing",
+      "Risk & Compliance"
+    ],
+    "supportedCountries": [
+      "US",
+      "EU",
+      "UK",
+      "Australia"
+    ],
+    "currencies": [
+      "USD",
+      "EUR",
+      "GBP",
+      "AUD"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/fisglobal",
+      "twitter": "https://twitter.com/fisglobal"
+    }
   },
   {
     "id": "15",
     "name": "Fiserv",
     "logo": "https://via.placeholder.com/100x50?text=Fiserv",
     "category": "Financial Services",
+    "subCategory": "Banking Solutions",
+    "industry": "Financial Technology",
     "averageScore": 4.2,
+    "reviewCount": 160,
+    "companySize": "10000+",
     "description": "Fiserv offers payments and financial technology solutions.",
-    "website": "https://fiserv.com"
+    "website": "https://fiserv.com",
+    "services": [
+      "Core Banking",
+      "Payment Processing",
+      "Card Services"
+    ],
+    "supportedCountries": [
+      "US",
+      "EU",
+      "UK",
+      "Canada"
+    ],
+    "currencies": [
+      "USD",
+      "EUR",
+      "GBP",
+      "CAD"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/fiserv",
+      "twitter": "https://twitter.com/fiserv"
+    }
   },
   {
     "id": "16",
     "name": "Visa",
     "logo": "https://via.placeholder.com/100x50?text=Visa",
     "category": "Financial Services",
+    "subCategory": "Card Payments",
+    "industry": "Financial Technology",
     "averageScore": 4.5,
+    "reviewCount": 500,
+    "companySize": "20000+",
     "description": "Visa is a global payments technology company.",
-    "website": "https://visa.com"
+    "website": "https://visa.com",
+    "services": [
+      "Card Payments",
+      "Digital Wallets",
+      "Fraud Management"
+    ],
+    "supportedCountries": [
+      "Global"
+    ],
+    "currencies": [
+      "USD",
+      "EUR",
+      "GBP",
+      "AUD",
+      "CAD"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/visa",
+      "twitter": "https://twitter.com/visa"
+    }
   },
   {
     "id": "17",
     "name": "Mastercard",
     "logo": "https://via.placeholder.com/100x50?text=Mastercard",
     "category": "Financial Services",
+    "subCategory": "Card Payments",
+    "industry": "Financial Technology",
     "averageScore": 4.5,
+    "reviewCount": 480,
+    "companySize": "20000+",
     "description": "Mastercard enables global card payments and services.",
-    "website": "https://mastercard.com"
+    "website": "https://mastercard.com",
+    "services": [
+      "Card Payments",
+      "Digital Wallets",
+      "Fraud Management"
+    ],
+    "supportedCountries": [
+      "Global"
+    ],
+    "currencies": [
+      "USD",
+      "EUR",
+      "GBP",
+      "AUD",
+      "CAD"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/mastercard",
+      "twitter": "https://twitter.com/mastercard"
+    }
   },
   {
     "id": "18",
     "name": "JPMorgan Chase",
     "logo": "https://via.placeholder.com/100x50?text=JPMC",
     "category": "Banking",
+    "subCategory": "Commercial & Investment Banking",
+    "industry": "Banking",
     "averageScore": 4.3,
+    "reviewCount": 350,
+    "companySize": "100000+",
     "description": "JPMorgan Chase is a leading global financial services firm.",
-    "website": "https://jpmorganchase.com"
+    "website": "https://jpmorganchase.com",
+    "services": [
+      "Commercial Banking",
+      "Investment Banking",
+      "Asset Management"
+    ],
+    "supportedCountries": [
+      "US",
+      "EU",
+      "UK",
+      "Asia"
+    ],
+    "currencies": [
+      "USD",
+      "EUR",
+      "GBP"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/jpmorganchase",
+      "twitter": "https://twitter.com/jpmorgan"
+    }
   },
   {
     "id": "19",
     "name": "UBS Group",
     "logo": "https://via.placeholder.com/100x50?text=UBS",
     "category": "Banking",
+    "subCategory": "Investment Banking & Wealth Management",
+    "industry": "Banking",
     "averageScore": 4.4,
+    "reviewCount": 300,
+    "companySize": "70000+",
     "description": "UBS is a Swiss multinational investment bank and financial services firm.",
-    "website": "https://ubs.com"
+    "website": "https://ubs.com",
+    "services": [
+      "Investment Banking",
+      "Wealth Management",
+      "Asset Management"
+    ],
+    "supportedCountries": [
+      "Global"
+    ],
+    "currencies": [
+      "CHF",
+      "USD",
+      "EUR",
+      "GBP"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/ubs",
+      "twitter": "https://twitter.com/ubs"
+    }
   },
   {
     "id": "20",
     "name": "Bank of America",
     "logo": "https://via.placeholder.com/100x50?text=BoA",
     "category": "Banking",
+    "subCategory": "Retail & Commercial Banking",
+    "industry": "Banking",
     "averageScore": 4.2,
+    "reviewCount": 400,
+    "companySize": "100000+",
     "description": "Bank of America provides banking, investment, and financial services.",
-    "website": "https://bankofamerica.com"
+    "website": "https://bankofamerica.com",
+    "services": [
+      "Retail Banking",
+      "Commercial Banking",
+      "Investment Services"
+    ],
+    "supportedCountries": [
+      "US",
+      "Global"
+    ],
+    "currencies": [
+      "USD"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/bank-of-america",
+      "twitter": "https://twitter.com/bankofamerica"
+    }
   },
   {
     "id": "21",
     "name": "Citigroup",
     "logo": "https://via.placeholder.com/100x50?text=Citi",
     "category": "Banking",
+    "subCategory": "Commercial & Investment Banking",
+    "industry": "Banking",
     "averageScore": 4.1,
+    "reviewCount": 350,
+    "companySize": "100000+",
     "description": "Citigroup is a global bank offering financial products and services.",
-    "website": "https://citi.com"
+    "website": "https://citi.com",
+    "services": [
+      "Commercial Banking",
+      "Investment Banking",
+      "Wealth Management"
+    ],
+    "supportedCountries": [
+      "Global"
+    ],
+    "currencies": [
+      "USD",
+      "EUR",
+      "GBP"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/citi",
+      "twitter": "https://twitter.com/citi"
+    }
   },
   {
     "id": "22",
     "name": "Capital One",
     "logo": "https://via.placeholder.com/100x50?text=CapOne",
     "category": "Banking",
+    "subCategory": "Retail Banking & Credit Cards",
+    "industry": "Banking",
     "averageScore": 4.1,
+    "reviewCount": 320,
+    "companySize": "50000+",
     "description": "Capital One is a diversified bank providing lending and financial products.",
-    "website": "https://capitalone.com"
+    "website": "https://capitalone.com",
+    "services": [
+      "Retail Banking",
+      "Credit Cards",
+      "Loans"
+    ],
+    "supportedCountries": [
+      "US"
+    ],
+    "currencies": [
+      "USD"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/capital-one",
+      "twitter": "https://twitter.com/capitalone"
+    }
   },
   {
     "id": "23",
     "name": "American Express",
     "logo": "https://via.placeholder.com/100x50?text=AmEx",
     "category": "Financial Services",
+    "subCategory": "Credit Cards & Payments",
+    "industry": "Financial Technology",
     "averageScore": 4.4,
+    "reviewCount": 400,
+    "companySize": "50000+",
     "description": "American Express offers credit card, charge card and payment services.",
-    "website": "https://americanexpress.com"
+    "website": "https://americanexpress.com",
+    "services": [
+      "Credit Cards",
+      "Charge Cards",
+      "Payment Services"
+    ],
+    "supportedCountries": [
+      "Global"
+    ],
+    "currencies": [
+      "USD",
+      "EUR",
+      "GBP",
+      "AUD",
+      "CAD"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/american-express",
+      "twitter": "https://twitter.com/americanexpress"
+    }
   },
   {
     "id": "24",
     "name": "Chase Bank",
     "logo": "https://via.placeholder.com/100x50?text=Chase",
     "category": "Banking",
+    "subCategory": "Retail & Commercial Banking",
+    "industry": "Banking",
     "averageScore": 4.2,
+    "reviewCount": 380,
+    "companySize": "100000+",
     "description": "Chase Bank is part of JPMorgan Chase offering consumer banking.",
-    "website": "https://chase.com"
+    "website": "https://chase.com",
+    "services": [
+      "Retail Banking",
+      "Commercial Banking",
+      "Online Banking"
+    ],
+    "supportedCountries": [
+      "US"
+    ],
+    "currencies": [
+      "USD"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/chase",
+      "twitter": "https://twitter.com/chase"
+    }
   },
   {
     "id": "25",
     "name": "SoFi Technologies",
     "logo": "https://via.placeholder.com/100x50?text=SoFi",
     "category": "Fintech",
+    "subCategory": "Digital Banking",
+    "industry": "Financial Technology",
     "averageScore": 4.0,
+    "reviewCount": 200,
+    "companySize": "1000-5000",
     "description": "SoFi provides digital banking, loans, and investment services.",
-    "website": "https://sofi.com"
+    "website": "https://sofi.com",
+    "services": [
+      "Digital Banking",
+      "Loans",
+      "Investments"
+    ],
+    "supportedCountries": [
+      "US"
+    ],
+    "currencies": [
+      "USD"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/sofi",
+      "twitter": "https://twitter.com/sofi"
+    }
   },
   {
     "id": "26",
     "name": "Robinhood Markets",
     "logo": "https://via.placeholder.com/100x50?text=Robinhood",
     "category": "Fintech",
+    "subCategory": "Trading Platform",
+    "industry": "Financial Technology",
     "averageScore": 4.1,
+    "reviewCount": 220,
+    "companySize": "1000-5000",
     "description": "Robinhood offers commission-free trading and financial services.",
-    "website": "https://robinhood.com"
+    "website": "https://robinhood.com",
+    "services": [
+      "Stock Trading",
+      "Crypto Trading",
+      "Cash Management"
+    ],
+    "supportedCountries": [
+      "US"
+    ],
+    "currencies": [
+      "USD"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/robinhood",
+      "twitter": "https://twitter.com/RobinhoodApp"
+    }
   },
   {
     "id": "27",
     "name": "Plaid",
     "logo": "https://via.placeholder.com/100x50?text=Plaid",
     "category": "Fintech",
+    "subCategory": "Financial APIs",
+    "industry": "Financial Technology",
     "averageScore": 4.3,
+    "reviewCount": 180,
+    "companySize": "500-1000",
     "description": "Plaid provides financial APIs for banking integration.",
-    "website": "https://plaid.com"
+    "website": "https://plaid.com",
+    "services": [
+      "Bank API Integration",
+      "Data Analytics"
+    ],
+    "supportedCountries": [
+      "US",
+      "Canada",
+      "UK"
+    ],
+    "currencies": [
+      "USD",
+      "CAD",
+      "GBP"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/plaid",
+      "twitter": "https://twitter.com/plaid"
+    }
   },
   {
     "id": "28",
     "name": "Checkout.com",
     "logo": "https://via.placeholder.com/100x50?text=Checkout",
     "category": "Fintech",
+    "subCategory": "Payments",
+    "industry": "Financial Technology",
     "averageScore": 4.2,
+    "reviewCount": 150,
+    "companySize": "1000-5000",
     "description": "Checkout.com offers global payment processing solutions.",
-    "website": "https://checkout.com"
+    "website": "https://checkout.com",
+    "services": [
+      "Payment Processing",
+      "Fraud Detection",
+      "APIs"
+    ],
+    "supportedCountries": [
+      "Global"
+    ],
+    "currencies": [
+      "USD",
+      "EUR",
+      "GBP",
+      "AUD",
+      "CAD"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/checkout-com",
+      "twitter": "https://twitter.com/checkoutcom"
+    }
   },
   {
     "id": "29",
     "name": "Monzo",
     "logo": "https://via.placeholder.com/100x50?text=Monzo",
     "category": "Fintech",
+    "subCategory": "Digital Banking",
+    "industry": "Financial Technology",
     "averageScore": 4.0,
+    "reviewCount": 200,
+    "companySize": "1000-5000",
     "description": "Monzo is a UK digital bank serving millions of users.",
-    "website": "https://monzo.com"
+    "website": "https://monzo.com",
+    "services": [
+      "Digital Banking",
+      "Savings",
+      "Loans"
+    ],
+    "supportedCountries": [
+      "UK"
+    ],
+    "currencies": [
+      "GBP"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/monzo-bank",
+      "twitter": "https://twitter.com/monzo"
+    }
   },
   {
     "id": "30",
     "name": "Starling Bank",
     "logo": "https://via.placeholder.com/100x50?text=Starling",
     "category": "Fintech",
+    "subCategory": "Digital Banking",
+    "industry": "Financial Technology",
     "averageScore": 4.0,
+    "reviewCount": 180,
+    "companySize": "1000-5000",
     "description": "Starling Bank provides digital banking services in the UK.",
-    "website": "https://starlingbank.com"
+    "website": "https://starlingbank.com",
+    "services": [
+      "Digital Banking",
+      "Business Accounts",
+      "Loans"
+    ],
+    "supportedCountries": [
+      "UK"
+    ],
+    "currencies": [
+      "GBP"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/starling-bank",
+      "twitter": "https://twitter.com/StarlingBank"
+    }
   },
   {
     "id": "31",
     "name": "Afterpay",
     "logo": "https://via.placeholder.com/100x50?text=Afterpay",
     "category": "Fintech",
+    "subCategory": "Buy Now Pay Later",
+    "industry": "Financial Technology",
     "averageScore": 4.1,
+    "reviewCount": 160,
+    "companySize": "1000-5000",
     "description": "Afterpay offers buy-now-pay-later payment solutions.",
-    "website": "https://afterpay.com"
+    "website": "https://afterpay.com",
+    "services": [
+      "BNPL",
+      "Consumer Credit"
+    ],
+    "supportedCountries": [
+      "Australia",
+      "US",
+      "UK",
+      "Canada"
+    ],
+    "currencies": [
+      "AUD",
+      "USD",
+      "GBP",
+      "CAD"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/afterpay",
+      "twitter": "https://twitter.com/afterpay"
+    }
   },
   {
     "id": "32",
     "name": "Mollie",
     "logo": "https://via.placeholder.com/100x50?text=Mollie",
     "category": "Fintech",
+    "subCategory": "Payments",
+    "industry": "Financial Technology",
     "averageScore": 4.3,
+    "reviewCount": 140,
+    "companySize": "500-1000",
     "description": "Mollie is a European payments platform.",
-    "website": "https://mollie.com"
+    "website": "https://mollie.com",
+    "services": [
+      "Payment Processing",
+      "Subscriptions",
+      "APIs"
+    ],
+    "supportedCountries": [
+      "EU"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/mollie",
+      "twitter": "https://twitter.com/mollie"
+    }
   },
   {
     "id": "33",
     "name": "Rapyd",
     "logo": "https://via.placeholder.com/100x50?text=Rapyd",
     "category": "Fintech",
+    "subCategory": "Financial APIs",
+    "industry": "Financial Technology",
     "averageScore": 4.2,
+    "reviewCount": 120,
+    "companySize": "1000-5000",
     "description": "Rapyd provides global financial infrastructure APIs.",
-    "website": "https://rapyd.net"
+    "website": "https://rapyd.net",
+    "services": [
+      "Payments API",
+      "Wallets",
+      "Banking as a Service"
+    ],
+    "supportedCountries": [
+      "Global"
+    ],
+    "currencies": [
+      "USD",
+      "EUR",
+      "GBP",
+      "AUD",
+      "CAD"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/rapyd",
+      "twitter": "https://twitter.com/rapydnet"
+    }
   },
   {
     "id": "34",
     "name": "Bunq",
     "logo": "https://via.placeholder.com/100x50?text=Bunq",
     "category": "Fintech",
+    "subCategory": "Digital Banking",
+    "industry": "Financial Technology",
     "averageScore": 4.1,
+    "reviewCount": 110,
+    "companySize": "500-1000",
     "description": "Bunq is a Dutch digital bank focused on sustainable finance.",
-    "website": "https://bunq.com"
+    "website": "https://bunq.com",
+    "services": [
+      "Digital Banking",
+      "Sustainable Investments",
+      "Business Accounts"
+    ],
+    "supportedCountries": [
+      "Netherlands",
+      "EU"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/bunq",
+      "twitter": "https://twitter.com/bunq"
+    }
   },
   {
     "id": "35",
     "name": "Paytm Payments Bank",
     "logo": "https://via.placeholder.com/100x50?text=PaytmBank",
     "category": "Fintech",
+    "subCategory": "Digital Banking",
+    "industry": "Financial Technology",
     "averageScore": 4.0,
+    "reviewCount": 130,
+    "companySize": "1000-5000",
     "description": "Paytm Payments Bank provides digital banking services in India.",
-    "website": "https://paytm.com/bank"
+    "website": "https://paytm.com/bank",
+    "services": [
+      "Digital Banking",
+      "Payments",
+      "Savings Accounts"
+    ],
+    "supportedCountries": [
+      "India"
+    ],
+    "currencies": [
+      "INR"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/paytm",
+      "twitter": "https://twitter.com/Paytm"
+    }
   },
   {
     "id": "36",
     "name": "PicPay",
     "logo": "https://via.placeholder.com/100x50?text=PicPay",
     "category": "Fintech",
+    "subCategory": "Mobile Payments",
+    "industry": "Financial Technology",
     "averageScore": 4.2,
+    "reviewCount": 150,
+    "companySize": "1000-5000",
     "description": "PicPay is a Brazilian digital bank and payments app.",
-    "website": "https://picpay.com"
+    "website": "https://picpay.com",
+    "services": [
+      "Mobile Payments",
+      "Digital Wallet",
+      "Peer-to-Peer Transfers"
+    ],
+    "supportedCountries": [
+      "Brazil"
+    ],
+    "currencies": [
+      "BRL"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/picpay",
+      "twitter": "https://twitter.com/picpay"
+    }
   },
   {
     "id": "37",
     "name": "M-Pesa",
     "logo": "https://via.placeholder.com/100x50?text=M-Pesa",
     "category": "Fintech",
+    "subCategory": "Mobile Money",
+    "industry": "Financial Technology",
     "averageScore": 4.3,
+    "reviewCount": 200,
+    "companySize": "5000-10000",
     "description": "M-Pesa is a mobile money service widely used in Africa.",
-    "website": "https://vodafone.com/mpesa"
+    "website": "https://vodafone.com/mpesa",
+    "services": [
+      "Mobile Money",
+      "Payments",
+      "Transfers"
+    ],
+    "supportedCountries": [
+      "Kenya",
+      "Tanzania",
+      "South Africa"
+    ],
+    "currencies": [
+      "KES",
+      "TZS",
+      "ZAR"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/mpesa",
+      "twitter": "https://twitter.com/mpesa"
+    }
   },
   {
     "id": "38",
     "name": "Intuit",
     "logo": "https://via.placeholder.com/100x50?text=Intuit",
     "category": "Fintech",
+    "subCategory": "Financial Software",
+    "industry": "Financial Technology",
     "averageScore": 4.4,
+    "reviewCount": 250,
+    "companySize": "10000+",
     "description": "Intuit offers financial software including QuickBooks and TurboTax.",
-    "website": "https://intuit.com"
+    "website": "https://intuit.com",
+    "services": [
+      "Accounting Software",
+      "Tax Filing",
+      "Financial Planning"
+    ],
+    "supportedCountries": [
+      "US",
+      "Canada",
+      "UK",
+      "Australia"
+    ],
+    "currencies": [
+      "USD",
+      "CAD",
+      "GBP",
+      "AUD"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/intuit",
+      "twitter": "https://twitter.com/Intuit"
+    }
   },
   {
     "id": "39",
     "name": "Block (Square)",
     "logo": "https://via.placeholder.com/100x50?text=Block",
     "category": "Fintech",
+    "subCategory": "Payments & POS",
+    "industry": "Financial Technology",
     "averageScore": 4.3,
+    "reviewCount": 220,
+    "companySize": "5000-10000",
     "description": "Block offers payments hardware and fintech services via Square and Cash App.",
-    "website": "https://block.xyz"
+    "website": "https://block.xyz",
+    "services": [
+      "Payment Processing",
+      "POS Hardware",
+      "Cash App"
+    ],
+    "supportedCountries": [
+      "US",
+      "Canada",
+      "UK",
+      "Australia"
+    ],
+    "currencies": [
+      "USD",
+      "CAD",
+      "GBP",
+      "AUD"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/square",
+      "twitter": "https://twitter.com/square"
+    }
   },
   {
     "id": "40",
     "name": "BlackRock",
     "logo": "https://via.placeholder.com/100x50?text=BlackRock",
     "category": "Asset Management",
+    "subCategory": "Investment Management",
+    "industry": "Financial Services",
     "averageScore": 4.5,
+    "reviewCount": 300,
+    "companySize": "15000-20000",
     "description": "BlackRock is the world's largest asset manager.",
-    "website": "https://blackrock.com"
+    "website": "https://blackrock.com",
+    "services": [
+      "Investment Management",
+      "ETFs",
+      "Risk Management"
+    ],
+    "supportedCountries": [
+      "Global"
+    ],
+    "currencies": [
+      "USD",
+      "EUR",
+      "GBP",
+      "AUD",
+      "CAD"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/blackrock",
+      "twitter": "https://twitter.com/blackrock"
+    }
   },
   {
     "id": "41",
     "name": "Fidelity Investments",
     "logo": "https://via.placeholder.com/100x50?text=Fidelity",
     "category": "Asset Management",
+    "subCategory": "Investment Management",
+    "industry": "Financial Services",
     "averageScore": 4.4,
+    "reviewCount": 280,
+    "companySize": "10000-15000",
     "description": "Fidelity offers investment management and financial products.",
-    "website": "https://fidelity.com"
+    "website": "https://fidelity.com",
+    "services": [
+      "Mutual Funds",
+      "Brokerage",
+      "Retirement Planning"
+    ],
+    "supportedCountries": [
+      "US",
+      "UK",
+      "EU"
+    ],
+    "currencies": [
+      "USD",
+      "GBP",
+      "EUR"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/fidelity-investments",
+      "twitter": "https://twitter.com/fidelity"
+    }
   },
   {
     "id": "42",
     "name": "Vanguard",
     "logo": "https://via.placeholder.com/100x50?text=Vanguard",
     "category": "Asset Management",
+    "subCategory": "Investment Management",
+    "industry": "Financial Services",
     "averageScore": 4.4,
+    "reviewCount": 270,
+    "companySize": "10000-15000",
     "description": "Vanguard manages mutual funds and ETFs worldwide.",
-    "website": "https://vanguard.com"
+    "website": "https://vanguard.com",
+    "services": [
+      "Mutual Funds",
+      "ETFs",
+      "Retirement Planning"
+    ],
+    "supportedCountries": [
+      "Global"
+    ],
+    "currencies": [
+      "USD",
+      "EUR",
+      "GBP"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/vanguard",
+      "twitter": "https://twitter.com/vanguard_group"
+    }
   },
   {
     "id": "43",
     "name": "Allianz",
     "logo": "https://via.placeholder.com/100x50?text=Allianz",
     "category": "Insurance",
+    "subCategory": "Insurance & Asset Management",
+    "industry": "Insurance",
     "averageScore": 4.3,
+    "reviewCount": 200,
+    "companySize": "10000-15000",
     "description": "Allianz offers global insurance and financial services.",
-    "website": "https://allianz.com"
+    "website": "https://allianz.com",
+    "services": [
+      "Insurance",
+      "Asset Management",
+      "Pension Funds"
+    ],
+    "supportedCountries": [
+      "Global"
+    ],
+    "currencies": [
+      "USD",
+      "EUR",
+      "GBP"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/allianz",
+      "twitter": "https://twitter.com/Allianz"
+    }
   },
   {
     "id": "44",
     "name": "AXA",
     "logo": "https://via.placeholder.com/100x50?text=AXA",
     "category": "Insurance",
+    "subCategory": "Insurance & Asset Management",
+    "industry": "Insurance",
     "averageScore": 4.2,
+    "reviewCount": 180,
+    "companySize": "10000-15000",
     "description": "AXA is a global insurance and asset management company.",
-    "website": "https://axa.com"
+    "website": "https://axa.com",
+    "services": [
+      "Insurance",
+      "Asset Management",
+      "Pension Funds"
+    ],
+    "supportedCountries": [
+      "Global"
+    ],
+    "currencies": [
+      "USD",
+      "EUR",
+      "GBP"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/axa",
+      "twitter": "https://twitter.com/axa"
+    }
   },
   {
     "id": "45",
     "name": "AIA Group",
     "logo": "https://via.placeholder.com/100x50?text=AIA",
     "category": "Insurance",
+    "subCategory": "Insurance & Wealth",
+    "industry": "Insurance",
     "averageScore": 4.3,
+    "reviewCount": 190,
+    "companySize": "10000-15000",
     "description": "AIA provides insurance and wealth products across Asia.",
-    "website": "https://aia.com"
+    "website": "https://aia.com",
+    "services": [
+      "Insurance",
+      "Wealth Management",
+      "Retirement Solutions"
+    ],
+    "supportedCountries": [
+      "Asia"
+    ],
+    "currencies": [
+      "USD",
+      "HKD",
+      "SGD"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/aia-group",
+      "twitter": "https://twitter.com/AIAGROUP"
+    }
   },
   {
     "id": "46",
     "name": "USAA",
     "logo": "https://via.placeholder.com/100x50?text=USAA",
     "category": "Financial Services",
+    "subCategory": "Banking & Insurance",
+    "industry": "Financial Services",
     "averageScore": 4.5,
+    "reviewCount": 250,
+    "companySize": "10000-15000",
     "description": "USAA offers banking, insurance and financial services.",
-    "website": "https://usaa.com"
+    "website": "https://usaa.com",
+    "services": [
+      "Banking",
+      "Insurance",
+      "Investments"
+    ],
+    "supportedCountries": [
+      "US"
+    ],
+    "currencies": [
+      "USD"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/usaa",
+      "twitter": "https://twitter.com/USAA"
+    }
   },
   {
     "id": "47",
     "name": "Discover Financial",
     "logo": "https://via.placeholder.com/100x50?text=Discover",
     "category": "Financial Services",
+    "subCategory": "Credit Cards & Banking",
+    "industry": "Financial Services",
     "averageScore": 4.2,
+    "reviewCount": 180,
+    "companySize": "5000-10000",
     "description": "Discover provides credit card and banking services.",
-    "website": "https://discover.com"
+    "website": "https://discover.com",
+    "services": [
+      "Credit Cards",
+      "Savings Accounts",
+      "Loans"
+    ],
+    "supportedCountries": [
+      "US"
+    ],
+    "currencies": [
+      "USD"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/discover-financial-services",
+      "twitter": "https://twitter.com/discover"
+    }
   },
   {
     "id": "48",
     "name": "Charles Schwab",
     "logo": "https://via.placeholder.com/100x50?text=Schwab",
     "category": "Financial Services",
+    "subCategory": "Brokerage & Investments",
+    "industry": "Financial Services",
     "averageScore": 4.4,
+    "reviewCount": 200,
+    "companySize": "10000-15000",
     "description": "Charles Schwab offers investments and brokerage services.",
-    "website": "https://schwab.com"
+    "website": "https://schwab.com",
+    "services": [
+      "Brokerage",
+      "Investments",
+      "Retirement Planning"
+    ],
+    "supportedCountries": [
+      "US"
+    ],
+    "currencies": [
+      "USD"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/charles-schwab",
+      "twitter": "https://twitter.com/CharlesSchwab"
+    }
   },
   {
     "id": "49",
     "name": "E*TRADE",
     "logo": "https://via.placeholder.com/100x50?text=ETRADE",
     "category": "Financial Services",
+    "subCategory": "Brokerage",
+    "industry": "Financial Services",
     "averageScore": 4.1,
+    "reviewCount": 150,
+    "companySize": "5000-10000",
     "description": "E*TRADE provides online brokerage and investing tools.",
-    "website": "https://etrade.com"
+    "website": "https://etrade.com",
+    "services": [
+      "Online Brokerage",
+      "Investments",
+      "Retirement Planning"
+    ],
+    "supportedCountries": [
+      "US"
+    ],
+    "currencies": [
+      "USD"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/etrade",
+      "twitter": "https://twitter.com/etrade"
+    }
   },
   {
     "id": "50",
     "name": "Soho Finance",
     "logo": "https://via.placeholder.com/100x50?text=Soho",
     "category": "Fintech",
+    "subCategory": "Credit & Lending",
+    "industry": "Financial Technology",
     "averageScore": 4.0,
+    "reviewCount": 100,
+    "companySize": "100-500",
     "description": "Soho Finance offers credit and lending services.",
-    "website": "https://sohofinance.com"
+    "website": "https://sohofinance.com",
+    "services": [
+      "Personal Loans",
+      "Business Loans",
+      "Credit Services"
+    ],
+    "supportedCountries": [
+      "US"
+    ],
+    "currencies": [
+      "USD"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/soho-finance",
+      "twitter": "https://twitter.com/sohofinance"
+    }
+  },
+  {
+    "id": "51",
+    "name": "Ant Group",
+    "logo": "https://via.placeholder.com/100x50?text=Ant+Group",
+    "category": "Fintech",
+    "subCategory": "Digital Wallet & Payments",
+    "industry": "Financial Technology",
+    "averageScore": 4.6,
+    "reviewCount": 420,
+    "companySize": "10000+",
+    "description": "Ant Group operates Alipay and offers digital payments, wealth management, lending and insurance services.",
+    "website": "https://www.antgroup.com",
+    "services": [
+      "Mobile Payments",
+      "Digital Wallet",
+      "Lending",
+      "Insurance"
+    ],
+    "supportedCountries": [
+      "China",
+      "Global"
+    ],
+    "currencies": [
+      "CNY",
+      "USD",
+      "EUR"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/ant-group",
+      "twitter": ""
+    }
+  },
+  {
+    "id": "52",
+    "name": "Binance",
+    "logo": "https://via.placeholder.com/100x50?text=Binance",
+    "category": "Fintech",
+    "subCategory": "Cryptocurrency Exchange",
+    "industry": "Financial Technology",
+    "averageScore": 4.5,
+    "reviewCount": 380,
+    "companySize": "5000-10000",
+    "description": "Binance is one of the world’s largest cryptocurrency exchanges, offering trading, staking and blockchain services.",
+    "website": "https://www.binance.com",
+    "services": [
+      "Crypto Trading",
+      "Staking",
+      "Blockchain Services"
+    ],
+    "supportedCountries": [
+      "Global"
+    ],
+    "currencies": [
+      "BTC",
+      "ETH",
+      "USD",
+      "EUR"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/binance",
+      "twitter": "https://twitter.com/binance"
+    }
+  },
+  {
+    "id": "53",
+    "name": "Flutterwave",
+    "logo": "https://via.placeholder.com/100x50?text=Flutterwave",
+    "category": "Fintech",
+    "subCategory": "Payments & APIs",
+    "industry": "Financial Technology",
+    "averageScore": 4.3,
+    "reviewCount": 210,
+    "companySize": "500-1000",
+    "description": "Flutterwave offers payment infrastructure for merchants and payment service providers across Africa and globally.",
+    "website": "https://www.flutterwave.com",
+    "services": [
+      "Payment Gateway",
+      "APIs",
+      "POS",
+      "Remittances"
+    ],
+    "supportedCountries": [
+      "Africa",
+      "US",
+      "EU"
+    ],
+    "currencies": [
+      "USD",
+      "NGN",
+      "EUR"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/flutterwave",
+      "twitter": "https://twitter.com/flutterwave"
+    }
+  },
+  {
+    "id": "54",
+    "name": "N26",
+    "logo": "https://via.placeholder.com/100x50?text=N26",
+    "category": "Fintech",
+    "subCategory": "Neobank",
+    "industry": "Financial Technology",
+    "averageScore": 4.2,
+    "reviewCount": 240,
+    "companySize": "1500-3000",
+    "description": "N26 is a German neobank offering digital banking services across Europe and beyond.",
+    "website": "https://n26.com",
+    "services": [
+      "Digital Banking",
+      "Debit Cards",
+      "Savings"
+    ],
+    "supportedCountries": [
+      "EU",
+      "UK",
+      "US"
+    ],
+    "currencies": [
+      "EUR",
+      "GBP",
+      "USD"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/n26",
+      "twitter": "https://twitter.com/n26"
+    }
+  },
+  {
+    "id": "55",
+    "name": "Mambu",
+    "logo": "https://via.placeholder.com/100x50?text=Mambu",
+    "category": "Fintech",
+    "subCategory": "Banking Software",
+    "industry": "Financial Technology",
+    "averageScore": 4.1,
+    "reviewCount": 140,
+    "companySize": "1000-2000",
+    "description": "Mambu provides SaaS banking infrastructure and core banking software to financial institutions.",
+    "website": "https://www.mambu.com",
+    "services": [
+      "Core Banking Software",
+      "Banking APIs"
+    ],
+    "supportedCountries": [
+      "Global"
+    ],
+    "currencies": [
+      "USD",
+      "EUR",
+      "GBP"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/mambu",
+      "twitter": "https://twitter.com/mambu"
+    }
+  },
+  {
+    "id": "56",
+    "name": "Brex",
+    "logo": "https://via.placeholder.com/100x50?text=Brex",
+    "category": "Fintech",
+    "subCategory": "Corporate Cards & Banking",
+    "industry": "Financial Technology",
+    "averageScore": 4.0,
+    "reviewCount": 180,
+    "companySize": "1000-2000",
+    "description": "Brex offers corporate credit cards and financial services tailored for technology companies and startups.",
+    "website": "https://www.brex.com",
+    "services": [
+      "Corporate Cards",
+      "Cash Management",
+      "Rewards"
+    ],
+    "supportedCountries": [
+      "US"
+    ],
+    "currencies": [
+      "USD"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/brex",
+      "twitter": "https://twitter.com/brex"
+    }
+  },
+  {
+    "id": "57",
+    "name": "Kuda Bank",
+    "logo": "https://via.placeholder.com/100x50?text=Kuda",
+    "category": "Fintech",
+    "subCategory": "Neobank",
+    "industry": "Financial Technology",
+    "averageScore": 4.1,
+    "reviewCount": 130,
+    "companySize": "500-1000",
+    "description": "Kuda is Nigeria’s mobile-only bank offering free digital banking and payments.",
+    "website": "https://www.kuda.com",
+    "services": [
+      "Neobanking",
+      "Savings",
+      "Payments"
+    ],
+    "supportedCountries": [
+      "Nigeria"
+    ],
+    "currencies": [
+      "NGN"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/kuda-bank",
+      "twitter": "https://twitter.com/kudabank"
+    }
+  },
+  {
+    "id": "58",
+    "name": "OurPass",
+    "logo": "https://via.placeholder.com/100x50?text=OurPass",
+    "category": "Fintech",
+    "subCategory": "Neobank",
+    "industry": "Financial Technology",
+    "averageScore": 4.0,
+    "reviewCount": 90,
+    "companySize": "100-500",
+    "description": "OurPass focuses on digital business banking with checkout and neobanking features.",
+    "website": "https://www.ourpass.com",
+    "services": [
+      "Business Neobanking",
+      "Checkout"
+    ],
+    "supportedCountries": [
+      "Nigeria"
+    ],
+    "currencies": [
+      "NGN"
+    ],
+    "socialMedia": {
+      "linkedin": "",
+      "twitter": ""
+    }
+  },
+  {
+    "id": "59",
+    "name": "Tala",
+    "logo": "https://via.placeholder.com/100x50?text=Tala",
+    "category": "Fintech",
+    "subCategory": "Lending",
+    "industry": "Financial Technology",
+    "averageScore": 4.2,
+    "reviewCount": 160,
+    "companySize": "500-1000",
+    "description": "Tala provides credit access and mobile lending services in emerging markets.",
+    "website": "https://www.tala.co",
+    "services": [
+      "Mobile Lending",
+      "Credit Scoring"
+    ],
+    "supportedCountries": [
+      "Kenya",
+      "Philippines",
+      "Mexico"
+    ],
+    "currencies": [
+      "KES",
+      "PHP",
+      "MXN"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/tala-financial",
+      "twitter": "https://twitter.com/tala"
+    }
+  },
+  {
+    "id": "60",
+    "name": "Alipay",
+    "logo": "https://via.placeholder.com/100x50?text=Alipay",
+    "category": "Fintech",
+    "subCategory": "Digital Wallet",
+    "industry": "Financial Technology",
+    "averageScore": 4.5,
+    "reviewCount": 550,
+    "companySize": "10000+",
+    "description": "Alipay is a leading digital wallet and mobile payment platform operated by Ant Group.",
+    "website": "https://www.alipay.com",
+    "services": [
+      "Mobile Payments",
+      "Bill Pay",
+      "Wealth Management"
+    ],
+    "supportedCountries": [
+      "China",
+      "Global"
+    ],
+    "currencies": [
+      "CNY",
+      "USD",
+      "EUR"
+    ],
+    "socialMedia": {
+      "linkedin": "",
+      "twitter": ""
+    }
+  },
+  {
+    "id": "61",
+    "name": "OakNorth",
+    "logo": "https://via.placeholder.com/100x50?text=OakNorth",
+    "category": "Fintech",
+    "subCategory": "Lending & Banking Tech",
+    "industry": "Financial Technology",
+    "averageScore": 4.1,
+    "reviewCount": 120,
+    "companySize": "1000-2000",
+    "description": "OakNorth provides lending products and banking technology for small and medium enterprises.",
+    "website": "https://www.oaknorth.com",
+    "services": [
+      "SME Lending",
+      "Banking Software"
+    ],
+    "supportedCountries": [
+      "UK",
+      "EU"
+    ],
+    "currencies": [
+      "GBP",
+      "EUR"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/oaknorth-bank",
+      "twitter": ""
+    }
+  },
+  {
+    "id": "62",
+    "name": "Eversend",
+    "logo": "https://via.placeholder.com/100x50?text=Eversend",
+    "category": "Fintech",
+    "subCategory": "Neobank",
+    "industry": "Financial Technology",
+    "averageScore": 4.0,
+    "reviewCount": 100,
+    "companySize": "500-1000",
+    "description": "Eversend offers multi-currency accounts, virtual cards, loans, savings and currency exchange.",
+    "website": "https://www.eversend.com",
+    "services": [
+      "Neobanking",
+      "Multi-currency Wallet",
+      "Loans"
+    ],
+    "supportedCountries": [
+      "Africa",
+      "EU"
+    ],
+    "currencies": [
+      "USD",
+      "EUR",
+      "NGN"
+    ],
+    "socialMedia": {
+      "linkedin": "",
+      "twitter": ""
+    }
+  },
+  {
+    "id": "63",
+    "name": "Komo",
+    "logo": "https://via.placeholder.com/100x50?text=Komo",
+    "category": "Fintech",
+    "subCategory": "Neobank",
+    "industry": "Financial Technology",
+    "averageScore": 4.1,
+    "reviewCount": 95,
+    "companySize": "100-500",
+    "description": "Komo provides digital banking and savings tools in Latin America.",
+    "website": "https://www.komo.com",
+    "services": [
+      "Neobanking",
+      "Savings",
+      "Payments"
+    ],
+    "supportedCountries": [
+      "Brazil"
+    ],
+    "currencies": [
+      "BRL"
+    ],
+    "socialMedia": {
+      "linkedin": "",
+      "twitter": ""
+    }
+  },
+  {
+    "id": "64",
+    "name": "Chime",
+    "logo": "https://via.placeholder.com/100x50?text=Chime",
+    "category": "Fintech",
+    "subCategory": "Neobank",
+    "industry": "Financial Technology",
+    "averageScore": 4.2,
+    "reviewCount": 260,
+    "companySize": "1000-2000",
+    "description": "Chime is a US-based digital bank offering no-fee banking services.",
+    "website": "https://www.chime.com",
+    "services": [
+      "Neobanking",
+      "Savings",
+      "Early Pay"
+    ],
+    "supportedCountries": [
+      "US"
+    ],
+    "currencies": [
+      "USD"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/chime",
+      "twitter": "https://twitter.com/chime"
+    }
+  },
+  {
+    "id": "65",
+    "name": "SoFi Invest",
+    "logo": "https://via.placeholder.com/100x50?text=SoFi+Invest",
+    "category": "Fintech",
+    "subCategory": "Investing Platform",
+    "industry": "Financial Technology",
+    "averageScore": 4.3,
+    "reviewCount": 210,
+    "companySize": "5000-10000",
+    "description": "SoFi Invest provides investing services including stocks, ETFs and crypto within the SoFi ecosystem.",
+    "website": "https://www.sofi.com/invest",
+    "services": [
+      "Stock Investing",
+      "ETF Investing",
+      "Crypto Trading"
+    ],
+    "supportedCountries": [
+      "US"
+    ],
+    "currencies": [
+      "USD"
+    ],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/sofi",
+      "twitter": "https://twitter.com/sofi"
+    }
   }
 ]

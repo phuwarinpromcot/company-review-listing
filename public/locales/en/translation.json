@@ -1,3 +1,12 @@
 {
-  "hello": "Hello"
+  "header-menu": {
+    "home": "Home",
+    "company-review": "Companies Review",
+    "about-us": "About Us"
+  },
+  "landing-page": {
+    "title": "Find the Right Financial Company for You",
+    "subtitle": "Search and review financial companies from all around the world.",
+    "btn-to-seach": "Start Your Search"
+  }
 }

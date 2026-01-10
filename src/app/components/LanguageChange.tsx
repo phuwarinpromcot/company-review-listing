@@ -68,9 +68,9 @@ function UKFlagIcon({
   );
 }
 
-const languages: Record<string, { code: string; flag: React.FC<React.SVGProps<SVGSVGElement>> }> = {
-  th: { code: "th", flag: ThailandFlagIcon },
-  en: { code: "en", flag: UKFlagIcon },
+const languages: Record<string, { code: string; title: string; flag: React.FC<React.SVGProps<SVGSVGElement>> }> = {
+  th: { code: "th", title: "ไทย", flag: ThailandFlagIcon },
+  en: { code: "en", title: "English", flag: UKFlagIcon },
 };
 
 const useCurrentLang = () => {
@@ -85,14 +85,14 @@ const useCurrentLang = () => {
 const LanguageChange = () => {
   const { t, i18n } = useTranslation();
   const { currentLang } = useCurrentLang();
-    const [mounted, setMounted] = useState(false);
+  const [mounted, setMounted] = useState(false);
 
 
   useEffect(() => {
     setMounted(true);
   }, []);
 
-  if (!mounted) return null; 
+  if (!mounted) return null;
 
   const changeLang = (lng: "th" | "en") => {
     i18n.changeLanguage(lng);
@@ -105,7 +105,7 @@ const LanguageChange = () => {
 
 
     <Menu as="div" className="relative inline-block text-left">
-      <MenuButton className="flex items-center gap-2 rounded-full px-2 py-2 hover:bg-gray-100">
+      <MenuButton className="flex items-center gap-2 rounded-full px-2 py-2 hover:bg-gray-100 focus:outline-none">
         <Flag className="w-7 h-7" />
       </MenuButton>
       <Transition
@@ -117,36 +117,22 @@ const LanguageChange = () => {
         leaveFrom="opacity-100 translate-y-0 scale-100"
         leaveTo="opacity-0 -translate-y-2 scale-95"
       >
-        <MenuItems unmount={false}  className="absolute left-1/2 -translate-x-1/2 mt-2 w-36 top-14 origin-top rounded-lg bg-white shadow-lg p-2 z-50">
-          <MenuItem>
-            {({ active }: { active: boolean }) => (
-              <button
-                onClick={() => changeLang("th")}
-                className={`flex w-full items-center gap-2 rounded-md px-2 py-2 ${active ? "bg-gray-100" : ""
-                  }`}
-              >
-                <ThailandFlagIcon className="w-6 h-6" />
-                <p className="ml-2 text-gray-600">
-                  ไทย
-                </p>
-              </button>
-            )}
-          </MenuItem>
 
-          <MenuItem>
-            {({ active }: { active: boolean }) => (
-              <button
-                onClick={() => changeLang("en")}
-                className={`flex w-full items-center gap-2 rounded-md px-2 py-2 ${active ? "bg-gray-100" : ""
-                  }`}
-              >
-                <UKFlagIcon className="w-6 h-6" />
-                <p className="ml-2 text-gray-600">
-                  English
-                </p>
-              </button>
-            )}
-          </MenuItem>
+        <MenuItems unmount={false} className="absolute right-0 lg:left-1/2 lg:-translate-x-1/2 mt-2 w-36 top-14 origin-top rounded-lg bg-white shadow-lg p-2 z-50 focus:outline-none">
+          {Object.values(languages).map((lang) => {
+            const LangFlag = lang.flag;
+            return (
+              <MenuItem key={lang.code}>
+                <button
+                  onClick={() => changeLang(lang.code as "th" | "en")}
+                  className="flex w-full items-center gap-2 rounded-md px-2 py-2 hover:bg-gray-100"
+                >
+                  <LangFlag className="w-6 h-6" />
+                  <span className="ml-2 text-gray-600">{lang.title}</span>
+                </button>
+              </MenuItem>
+            );
+          })}
         </MenuItems>
       </Transition>
     </Menu>

@@ -1,34 +1,21 @@
-import Image from "next/image";
-import dataCompanies from "../data/companies.json";
+"use client";
+
+import React, { useState } from "react";
+import dynamic from "next/dynamic";
 import Header from "./components/layout/Header";
 
-type Company = {
-  id: string;
-  name: string;
-  description: string;
-};
-
+const LandingPage = dynamic(() => import("./components/content/LandingPage"), { ssr: false });
+const CompaniesPage = dynamic(() => import("./components/content/CompaniesPage"), { ssr: false });
 
 export default function Home() {
-  const companies = dataCompanies as Company[];
+  const [searchTerm, setSearchTerm] = useState("");
 
   return (
-     <div className="min-h-screen bg-zinc-50">
+    <div className="min-h-screen bg-zinc-50">
       <Header />
-
-      <main className="max-w-3xl mx-auto py-10 px-6">
-        {companies.map((company) => (
-          <div key={company.id} className="mb-6">
-            {/* <button className="btn-primary">
-              Name Company: {company.name}
-            </button>
-
-            <p className="mt-2 text-sm text-gray-600">
-              About: {company.description}
-            </p> */}
-          </div>
-        ))}
-
+      <main className="w-full py-10">
+        <LandingPage searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
+        <CompaniesPage searchTerm={searchTerm} />
       </main>
     </div>
   );
