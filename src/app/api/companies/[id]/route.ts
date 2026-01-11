@@ -2,6 +2,15 @@ import { NextRequest, NextResponse } from "next/server";
 import dataCompanies from "../../../../data/companies.json";
 import { Company } from "../../../components/CompanyCard";
 
+export const dynamic = "force-static";
+export const revalidate = false;
+
+export async function generateStaticParams() {
+  return (dataCompanies as Company[]).map((company) => ({
+    id: String(company.id),
+  }));
+}
+
 export async function GET(
   req: NextRequest,
   { params }: { params: Promise<{ id: string }> }
@@ -10,7 +19,9 @@ export async function GET(
     const resolvedParams = await params;
     const companyId = resolvedParams.id;
 
-    const company = (dataCompanies as Company[]).find(c => String(c.id) === companyId);
+    const company = (dataCompanies as Company[]).find(
+      (c) => String(c.id) === companyId
+    );
 
     if (!company) {
       return NextResponse.json({ error: "Company not found" }, { status: 404 });
@@ -18,6 +29,9 @@ export async function GET(
 
     return NextResponse.json(company);
   } catch (error) {
-    return NextResponse.json({ error: "Something went wrong" }, { status: 500 });
+    return NextResponse.json(
+      { error: "Something went wrong" },
+      { status: 500 }
+    );
   }
 }

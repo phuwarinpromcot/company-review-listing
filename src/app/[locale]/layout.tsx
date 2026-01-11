@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
-import I18nProvider from "../providers/I18nProvider";
+import "../globals.css";
+import I18nProvider from "../../providers/I18nProvider";
 import { ReactNode } from "react";
-import initTranslations, { i18nNamespaces } from "../i18n/i18n";
+import initTranslations, { i18nNamespaces } from "../../i18n/i18n";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,6 +28,13 @@ export const metadata: Metadata = {
   },
 };
 
+export async function generateStaticParams() {
+  return [
+    { locale: 'en' },
+    { locale: 'th' },
+  ];
+}
+
 interface LayoutProps {
   children: ReactNode;
   params: Promise<{
@@ -40,10 +47,8 @@ const Layout = async ({ children, params }: LayoutProps) => {
   const { resources } = await initTranslations(locale, i18nNamespaces);
 
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+    <html lang={locale}>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <I18nProvider
           namespaces={i18nNamespaces}
           locale={locale}
@@ -54,6 +59,6 @@ const Layout = async ({ children, params }: LayoutProps) => {
       </body>
     </html>
   );
-}
+};
 
 export default Layout;

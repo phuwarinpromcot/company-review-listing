@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import dynamic from "next/dynamic";
-import logo from "../../public/logo/logo2.svg";
+import logo from "../../../public/logo/logo2.svg";
 import Image from "next/image";
 
 const LogoSpinner = () => (
@@ -19,11 +19,11 @@ const LogoSpinner = () => (
   </div>
 );
 
-const Header = dynamic(() => import("./components/layout/Header"), { ssr: false });
-const Footer = dynamic(() => import("./components/layout/Footer"), { ssr: false });
-const LandingPage = dynamic(() => import("./components/content/LandingPage"), { ssr: false });
-const CompaniesPage = dynamic(() => import("./components/content/CompaniesPage"), { ssr: false });
-const AboutUsPage = dynamic(() => import("./components/content/AboutUsPage"), { ssr: false });
+const Header = dynamic(() => import("../components/layout/Header"), { ssr: false });
+const Footer = dynamic(() => import("../components/layout/Footer"), { ssr: false });
+const LandingPage = dynamic(() => import("../components/content/LandingPage"), { ssr: false });
+const CompaniesPage = dynamic(() => import("../components/content/CompaniesPage"), { ssr: false });
+const AboutUsPage = dynamic(() => import("../components/content/AboutUsPage"), { ssr: false });
 
 export default function Home() {
   const [searchTerm, setSearchTerm] = useState("");

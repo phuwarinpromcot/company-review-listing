@@ -1,7 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import dataCompanies from "../../../data/companies.json";
 import { Company } from "../../components/CompanyCard";
-
+export const dynamic = "force-static";
+export const revalidate = false;
 function parseArrayParam(param: string | null): string[] {
   if (!param) return [];
   return param
