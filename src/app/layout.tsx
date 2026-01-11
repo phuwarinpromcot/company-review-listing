@@ -19,6 +19,13 @@ export const metadata: Metadata = {
   title: "Lookup | Financial Company",
   description:
     "Search and explore trusted financial companies with profiles, services, and key business information.",
+  openGraph: {
+    title: "Lookup | Financial Company",
+    description:
+      "Search and explore trusted financial companies with profiles, services, and key business information.",
+    siteName: "Lookup",
+    type: "website",
+  },
 };
 
 interface LayoutProps {

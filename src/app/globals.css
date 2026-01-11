@@ -33,6 +33,22 @@
   --text-secondary-color: #FFFFFF;
   --text-theme-color: #247F82;
 
+  --yellow-theme-100: #FFF9E6;
+  --yellow-theme: #FFEE8B;
+  --yellow-theme-600: #E6C94D;
+
+  --orenge-theme-100: #FFECE0;
+  --orenge-theme: #E7854D;
+  --orenge-theme-600: #D96A2E;
+
+  --green-theme-100: #D0F0EC;
+  --green-theme: #31B099;
+  --green-theme-600: #218475;
+
+  --blue-theme-100: #E6ECFF;
+  --blue-theme: #4D81E7;
+  --blue-theme-600: #3A66D1;
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -52,7 +68,12 @@
   p {
     color: var(--text-primary-color)
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
 }
+
 
 /* ---- COMPONENTS ---- */
 @layer components {

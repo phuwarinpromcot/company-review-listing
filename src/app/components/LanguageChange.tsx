@@ -117,8 +117,11 @@ const LanguageChange = () => {
         leaveFrom="opacity-100 translate-y-0 scale-100"
         leaveTo="opacity-0 -translate-y-2 scale-95"
       >
-
-        <MenuItems unmount={false} className="absolute right-0 lg:left-1/2 lg:-translate-x-1/2 mt-2 w-36 top-14 origin-top rounded-lg bg-white shadow-lg p-2 z-50 focus:outline-none">
+        <MenuItems
+          unmount={false}
+          modal={false}
+          className="absolute right-0 lg:left-1/2 lg:-translate-x-1/2 mt-2 w-36 top-14 origin-top rounded-lg bg-white shadow-lg p-2 z-50 focus:outline-none"
+        >
           {Object.values(languages).map((lang) => {
             const LangFlag = lang.flag;
             return (

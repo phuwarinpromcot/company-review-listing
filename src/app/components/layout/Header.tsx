@@ -1,6 +1,7 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, Fragment } from "react";
+import { Transition, TransitionChild } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import LanguageChange from "../LanguageChange";
 import Image from "next/image";
@@ -12,6 +13,13 @@ const menuItems = [
   { id: "company-review", path: "#company-review" },
   { id: "about-us", path: "#about-us" },
 ];
+
+export const scrollToSection = (id: string) => {
+    const el = document.getElementById(id);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
 const Logo = () => {
   return (
@@ -41,7 +49,6 @@ const Header = () => {
     <header className="bg-white border-b border-b-neutral-200 shadow-none fixed w-full z-50">
       <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;700&display=swap" rel="stylesheet" />
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-2 lg:px-8">
-        {/* Logo */}
         <div className="flex">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Lookup | Financial Company</span>
@@ -54,7 +61,10 @@ const Header = () => {
             <a
               key={item.id}
               href={item.path}
-              onClick={() => setActive(item.id)}
+              onClick={() => {
+                setActive(item.id);
+                scrollToSection(item.id);
+              }}
               className={`
                 relative text-lg px-1
                 ${active === item.id ? "text-theme" : "text-primary"}
@@ -89,42 +99,56 @@ const Header = () => {
         </div>
       </nav>
 
-      {mobileMenuOpen && (
-        <div className="lg:hidden fixed inset-0 z-50 bg-white/95 backdrop-blur-sm">
-          <div className="flex items-center justify-between p-2 border-b border-gray-200">
-            <Logo />
-            <button
-              onClick={() => setMobileMenuOpen(false)}
-              className="inline-flex items-center justify-center rounded-md p-2 text-gray-700 hover:bg-gray-100 focus:outline-none"
-            >
-              <span className="sr-only">Close menu</span>
-              <XMarkIcon className="h-6 w-6" />
-            </button>
-          </div>
-
-          <div className="flex flex-col items-center mt-6 gap-4">
-            {menuItems.map((item) => (
-              <a
-                key={item.id}
-                href={item.path}
-                onClick={() => {
-                  setActive(item.id)
-                  setMobileMenuOpen(false)
-                }}
-                className={`
-                  relative text-lg px-1
-                  ${active === item.id ? "text-theme" : "text-primary"}
-                  hover:text-theme
-                  font-medium
-                `}
-              >
-                {t(`header-menu.${item.id}`)}
-              </a>
-            ))}
-          </div>
+      <Transition
+        show={mobileMenuOpen}
+        as="div"
+        className="lg:hidden fixed inset-0 z-50 bg-white/95 backdrop-blur-sm"
+        enter="transition ease-out duration-300"
+        enterFrom="opacity-0"
+        enterTo="opacity-100"
+        leave="transition ease-in duration-200"
+        leaveFrom="opacity-100"
+        leaveTo="opacity-0"
+      >
+        <div className="flex items-center justify-between p-2 border-b border-gray-200">
+          <Logo />
+          <button
+            onClick={() => setMobileMenuOpen(false)}
+            className="inline-flex items-center justify-center rounded-md p-2 text-gray-700 hover:bg-gray-100 focus:outline-none"
+          >
+            <span className="sr-only">Close menu</span>
+            <XMarkIcon className="h-6 w-6" />
+          </button>
         </div>
-      )}
-    </header>
+
+        <div className="flex flex-col items-center mt-6 gap-4">
+          {menuItems.map((item, index) => (
+            <Transition
+              key={item.id}
+              as="a"
+              href={item.path}
+              show={mobileMenuOpen}
+              enter={`transition-all ease-out duration-300 delay-${index * 50}`}
+              enterFrom="opacity-0 -translate-y-2 scale-95"
+              enterTo="opacity-100 translate-y-0 scale-100"
+              leave="transition-all ease-in duration-200"
+              leaveFrom="opacity-100 translate-y-0 scale-100"
+              leaveTo="opacity-0 -translate-y-2 scale-95"
+              className={`relative text-lg px-1 font-medium 
+          ${active === item.id ? "text-theme" : "text-primary"} 
+          hover:text-theme`}
+              onClick={() => {
+                setActive(item.id);
+                scrollToSection(item.id);
+                setMobileMenuOpen(false);
+              }}
+            >
+              {t(`header-menu.${item.id}`)}
+            </Transition>
+          ))}
+        </div>
+      </Transition>
+    </header >
   );
 };
 
