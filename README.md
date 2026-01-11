@@ -80,8 +80,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 
 ## AI-Assisted Contributions
-- **ใช้ในการช่วยแปลภาษาไทยและภาษาอังกฤษ
+- **ช่วยแปลภาษาไทยและภาษาอังกฤษ
 - **ช่วยแก้การส่งข้อมูลของการ Search ที่ส่งไป api
 - **ช่วยแก้เรื่องแปล i18n ในการทำ Providers และ Types
 - **ช่วยแนะนำการปรับ ESLint + Prettier + TS strict mode
 - **ช่วยแก้เรื่องเปิด dropdown แล้ว overflow y scroll hindder ทำให้ scroll ทั้งหน้า ไม่ได้
+- **ช่วยรวบรวมข้อมูลบริษัท 65 บริษัท
+- **ช่วยคิดคำต่าง ๆ ที่ใช้ในหน้า Landing และ About Us
